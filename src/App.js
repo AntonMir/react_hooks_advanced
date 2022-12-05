@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import { useRef } from 'react'
+// components
+import UseImplemetnHandle from './components/useImplementHandle/Perent'
+import LayoutEffect from './components/useLayoutEffect/LayoutEffect'
+import DeferredValue from './components/usedeferredvalue/deferredValue'
+import Promises from './components/promises/Promises'
 import './App.css';
 
+
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    return (
+        <>
+            {/* <UseImplemetnHandle /> */}
+            {/* <LayoutEffect /> */}
+            {/* <DeferredValue /> */}
+            <Promises />
+        </>
+    )
 }
 
 export default App;
